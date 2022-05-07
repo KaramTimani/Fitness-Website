@@ -1,0 +1,140 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+	margin:0;
+	padding: 0;
+}
+body{background-image: linear-gradient(to bottom right, white, #cccccc);}
+.banner-text{
+
+	width:100%;
+ 
+}
+.logo{	filter: drop-shadow( 12px 12px 12px black);}
+.banner-text ul{
+	float:right;
+	height: 50px;
+}
+.banner-text ul li{
+	font-family:"Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	
+	display: inline-block;
+	padding:20px 15px;
+	text-transform:uppercase;
+	color:#000;
+	font-weight: bold;
+	font-size:20px;
+	 text-shadow:    1px 1px 1px #000,
+        1px 2px 1px #fff,
+        1px 3px 1px #fff,
+        1px 4px 1px #fff,
+        1px 5px 1px #000,
+     
+    1px 18px 6px rgba(16,16,16,0.4),
+    1px 22px 10px rgba(16,16,16,0.2),
+    1px 25px 35px rgba(16,16,16,0.2),
+    1px 30px 60px rgba(16,16,16,0.4);
+
+	
+}
+.banner-text ul li:hover{
+	color:cornflowerblue;
+}
+.pics{text-align: center;}
+.content h1{text-align: center;}
+.karamPic{
+	filter: drop-shadow( 12px 12px 12px grey);
+	display: inline-block;
+  position: relative;
+  width: 200px;
+  height: 200px;
+  overflow: hidden;
+  border-radius: 50%;
+border: solid #ffffff00 2px; }
+.karamPic:hover { border-color:cornflowerblue;
+}
+.nabilPic:hover { border-color:cornflowerblue;
+}
+.antonioPic:hover { border-color:cornflowerblue;
+}
+
+
+.nabilPic{
+		filter: drop-shadow( 12px 12px 12px grey);
+	margin-left:8%;
+	margin-right:8%;
+	display: inline-block;
+  position: relative;
+  width: 200px;
+  height: 200px;
+  overflow: hidden;
+  border-radius: 50%;
+	border: solid #ffffff00 2px;
+}
+.antonioPic{
+		filter: drop-shadow( 12px 12px 12px grey);
+	display: inline-block;
+  position: relative;
+  width: 200px;
+  height: 200px;
+  overflow: hidden;
+  border-radius: 50%;
+	border: solid #ffffff00 2px;
+}
+.karName{
+		font-weight: bold;
+	display: inline-block;
+	font-family:"Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	text-shadow:    1px 1px 1px #000,
+        1px 2px 1px #fff,
+        1px 3px 1px #fff,
+        1px 4px 1px #fff,
+        1px 5px 1px #000,
+     
+    1px 18px 6px rgba(16,16,16,0.4),
+    1px 22px 10px rgba(16,16,16,0.2),
+    1px 25px 35px rgba(16,16,16,0.2),
+    1px 30px 60px rgba(16,16,16,0.4);}
+.nabName{
+		font-weight: bold;
+	display: inline-block;
+	font-family:"Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	text-shadow:    1px 1px 1px #000,
+        1px 2px 1px #fff,
+        1px 3px 1px #fff,
+        1px 4px 1px #fff,
+        1px 5px 1px #000,
+     
+    1px 18px 6px rgba(16,16,16,0.4),
+    1px 22px 10px rgba(16,16,16,0.2),
+    1px 25px 35px rgba(16,16,16,0.2),
+    1px 30px 60px rgba(16,16,16,0.4);}
+.antName{
+		font-weight: bold;
+	display: inline-block;
+	font-family:"Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	text-shadow:    1px 1px 1px #000,
+        1px 2px 1px #fff,
+        1px 3px 1px #fff,
+        1px 4px 1px #fff,
+        1px 5px 1px #000,
+     
+    1px 18px 6px rgba(16,16,16,0.4),
+    1px 22px 10px rgba(16,16,16,0.2),
+    1px 25px 35px rgba(16,16,16,0.2),
+    1px 30px 60px rgba(16,16,16,0.4);}
+.karName:hover{
+	color:cornflowerblue;
+}
+.nabName:hover{
+	color:cornflowerblue;
+}
+.antName:hover{
+	color:cornflowerblue;
+}
+
+
+
+
+
+

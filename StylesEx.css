@@ -1,0 +1,96 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+	
+	margin:0;
+	padding: 0;
+}
+.bg{width:100%;
+	height:100vh;
+	background-position: center center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-image: url("photo-1534438327276-14e5300c3a48 (1).jpg");
+	bakground-visibility:hidden;
+	
+}
+.banner-text ul li{
+	font-family:"Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	
+	display: inline-block;
+	padding:20px 15px;
+	text-transform:uppercase;
+	color:#fff;
+	font-weight: bold;
+	font-size:20px;
+	 text-shadow:    1px 1px 1px #fff,
+        1px 2px 1px #000,
+        1px 3px 1px #000,
+        1px 4px 1px #000,
+        1px 5px 1px #fff,
+     
+    1px 18px 6px rgba(16,16,16,0.4),
+    1px 22px 10px rgba(16,16,16,0.2),
+    1px 25px 35px rgba(16,16,16,0.2),
+    1px 30px 60px rgba(16,16,16,0.4);
+
+	
+}
+.banner-text ul li:hover{
+	color:cornflowerblue;
+}
+.banner-text{
+	width:100%;
+   position:absolute;
+}
+.banner-text ul{
+	float:right;
+	height: 50px;}
+.banner-text ul li:hover{
+	color:cornflowerblue;
+}
+.home{color:#fff;
+text-align: center;
+font-family:"Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+padding-top: 10%;
+	padding-bottom:2%;
+font-weight: bold;
+	font-size:50px;
+
+   text-shadow:    1px 1px 1px #fff,
+        1px 2px 1px #000,
+        1px 3px 1px #000,
+        1px 4px 1px #000,
+        1px 5px 1px #fff,
+     
+    1px 18px 6px rgba(16,16,16,0.4),
+    1px 22px 10px rgba(16,16,16,0.2),
+    1px 25px 35px rgba(16,16,16,0.2),
+    1px 30px 60px rgba(16,16,16,0.4);
+}
+.exer{
+	font-family:"Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	
+	
+	
+
+	color:#fff;
+	
+	font-size:20px;
+	 text-shadow:    1px 1px 1px #fff,
+        1px 2px 1px #000,
+        1px 3px 1px #000,
+        1px 4px 1px #000,
+        1px 5px 1px #fff,
+     
+    1px 18px 6px rgba(16,16,16,0.4),
+    1px 22px 10px rgba(16,16,16,0.2),
+    1px 25px 35px rgba(16,16,16,0.2),
+    1px 30px 60px rgba(16,16,16,0.4);
+
+	
+}
+.exer:hover{
+	color:cornflowerblue;
+}
+
